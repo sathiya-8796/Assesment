@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 30vw 30vw 30vw;
+            
+            /* grid-row-gap: 20px; */
+        }
+        .grid_item{
+            padding: 10px 10px;
+            margin: 10px;
+            background: rgb(12,250,231);
+            background: radial-gradient(circle, rgba(12,250,231,1) 5%, rgba(24,235,197,0.3617822128851541) 83%, rgba(44,254,177,0.3785889355742297) 100%);
+            height: 400px;
+        }
+        button{
+            margin:auto;
+            display: block;
+            padding:1vw;
+            border: 1px solid rgb(1, 73, 1);
+            background-color: rgb(75, 206, 23);
+            border-radius: 4px;
+            color:white
+        }
+        img{
+            height:14vw;
+            width:100%;
+        }
+        .prod-title{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        @media only screen and (max-width: 600px) {
+            .grid {
+                display: grid;
+                grid-template-columns: auto;
+                padding: 1em;
+                grid-row-gap: 30px;
+            }
+            img{
+                height:50%;
+                width: 100%;
+            }
+            }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid_item">
+            <div>
+                <img src="Tops.png" alt="western">
+                <p class="prod-title">Tops</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Kurtis.png" alt="Ethnic">
+                <p class="prod-title">Kurtis</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Jumpsuits.png" alt="Crop top">
+                <p class="prod-title">Jumpsuits</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Sarees.png" alt="boutique">
+                <p class="prod-title">Sarees</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Accessories.png" alt="bands">
+                <p class="prod-title">Accessories</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="dress.png" alt="dress">
+                <p class="prod-title">Lehanga</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Wedges.png" alt="wedges">
+                <p class="prod-title">Slippers</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="slippers.png" alt="sandals">
+                <p class="prod-title">Sandals</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+        <div class="grid_item">
+            <div>
+                <img src="Earings.png" alt="Grand">
+                <p class="prod-title">Earings</p>
+            </div>
+            <div style="text-align: justify;"><p>Product Desciption.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut sed, sapiente deleniti aperiam quos asperiores rem a beatae voluptate doloribus impedit et tenetur culpa libero voluptatum excepturi quasi in.</p></div>            
+            <div style="display: inline;">
+                <span style="font-weight: bold;font-size:3vw;">$12.00</span>
+                <button style="float: right;" value="Add to cart">Add to cart</button>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
